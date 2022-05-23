@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+    <canvas id="back-canvas" width="720" height="1280"></canvas>
+    <canvas id="front-canvas" width="720" height="1280"></canvas>
+
+    <div class="modal" id="connecting-modal">
+        <div class="modal-container">
+            <h1>접속중</h1>
+        </div>
+    </div>
+
+    <div class="modal" id="set-nickname-modal">
+        <div class="modal-container">
+            <h1>닉네임 설정</h1>
+            <label>
+                <input type="text" id="nickname-text-input" placeholder="닉네임">
+                <button type="button" onclick="onclickConfirmNicknameButton();">완료</button>
+            </label>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/dom/modal.js"></script>
+    <script type="text/javascript" src="js/dom/handler.js"></script>
+
+    <script type="text/javascript" src="js/component/base.js"></script>
+    <script type="text/javascript" src="js/component/fps.js"></script>
+    <script type="text/javascript" src="js/component/player.js"></script>
+    <script type="text/javascript" src="js/playermanager.js"></script>
+    <script type="text/javascript" src="js/sprite.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/input.js"></script>
+    <script type="text/javascript" src="js/network/network-handler.js"></script>
+    <script type="text/javascript" src="js/network/webrtc.js"></script>
+    <script type="text/javascript" src="js/network/network.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

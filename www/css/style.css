@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #eeeeee;
+    touch-action:none;
+    /*overflow: hidden;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+#back-canvas {
+    display: none;
+}
+
+#front-canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
